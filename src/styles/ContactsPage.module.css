@@ -1,0 +1,127 @@
+.table {
+  width: 1100px;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 8px;
+  margin-left: 220px;
+}
+
+.table div {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01785714em;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  box-sizing: border-box;
+  color: #5f6368;
+  overflow: hidden;
+  padding: 4px;
+  padding-left: 4px;
+  white-space: nowrap;
+}
+
+.title {
+  margin-left: 8px;
+  width: 339px;
+  height: 50px;
+  align-self: center;
+}
+
+.extraInfo {
+  width: 229px;
+  height: 50px;
+}
+
+
+.contacts {
+  width: 1200px;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 8px;
+  margin-left: 180px;
+}
+
+.contacts button {
+  /* margin-left: 16px; */
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border: none;
+  outline: 1px solid transparent;
+}
+
+.contacts button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contacts button img {
+  width: 18px;
+  height: 18px;
+}
+
+.contacts div {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01785714em;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #202124;
+  padding: 4px;
+  padding-left: 4px;
+}
+
+.contactsName {
+  width: 339px;
+  height: 50px;
+  align-self: center;
+}
+
+.contactsName img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-right: 8px;
+}
+
+.contactsEmail {
+  width: 229px;
+  height: 50px;
+}
+
+.contactsNumber {
+  width: 229px;
+  height: 50px;
+}
+
+.contactsCompany {
+  width: 229px;
+  height: 50px;
+}
+
+li {
+  cursor: pointer;
+}
+
+#info  {
+  width: 1100px;
+  justify-content: space-between;
+}

@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Roboto", "Times New Roman", serif;
+}
+
+.card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 2px;
+  width: 280px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+  opacity: 0.8;
+  color: #666666;
+}
+
+.cardContent label {
+  color: #666666;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.cardContentArea {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.cardContentArea input {
+  margin-top: 10px;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #666666;
+  outline: none;
+  color: #666666;
+}
+
+.cardContentArea p {
+  color: #ae1f37;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonLogin {
+  width: 100%;
+  height: 40px;
+  background-color: #e83f5b;
+  border: none;
+  color: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.cadastrar {
+  width: 100%;
+  height: 40px;
+  background-color: #e83f5b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cardFooter p {
+  align-self: center;
+  color: #ae1f37;
+  margin-top: 16px;
+  margin-bottom: 0;
+}

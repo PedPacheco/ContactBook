@@ -1,0 +1,29 @@
+{
+  "name": "contatsproject",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "compress.js": "^1.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^14.1.0",
+    "whatwg-fetch": "^3.6.2",
+    "@vitejs/plugin-react": "^1.0.7",
+    "jsdom": "^19.0.0",
+    "msw": "^0.39.2",
+    "vite": "^2.9.0",
+    "vitest": "^0.9.3"
+  }
+}
